@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phpunit/phpunit": "~5.0",
+        "symfony/var-dumper": "^3.2",
+        "filp/whoops": "~2.1.8",
+        "phpdocumentor/reflection-docblock": "3.2.2",
+        "doctrine/instantiator": "1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paginator\\": "Paginator/",
+            "tests\\": "tests/"
+        }
+    }
+}
