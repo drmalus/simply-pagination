@@ -603,6 +603,10 @@ class PaginationCalculatorTest extends \PHPUnit_Framework_TestCase
 	public function getPaginationPageNumbersVariousConfigProvider()
 	{
 		return [
+			'total_rows = 100, item_per_page = 10' => [[
+				'total_rows' => 100,
+				'item_per_page' => 10,
+			], range(1, 10)], // default value width 10
 			'total_rows = 100, item_per_page = 10, pagination_width = 5' => [[
 				'total_rows' => 100,
 				'item_per_page' => 10,
