@@ -219,7 +219,7 @@ class PaginationCalculator
 
 	public function getPaginationPageNumbers()
 	{
-		if ($this->totalRows == 0) {
+		if ($this->totalRows === 0) {
 			return range(0, 0);
 		}
 		return range($this->getPaginationFirstPageNumber(), $this->getPaginationLastPageNumber());
