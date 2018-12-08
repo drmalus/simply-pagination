@@ -1,8 +1,16 @@
 {
+    "name": "drmalus/simply-pagination",
+    "description": "A simple pagination class",
+    "authors": [
+        {
+            "name": "Szklenár Ferenc",
+            "email": "okpont@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.3.0",
         "phpunit/phpunit": "~5.0",
-        "symfony/var-dumper": "^3.2",
-        "filp/whoops": "~2.1.8",
         "phpdocumentor/reflection-docblock": "3.2.2",
         "doctrine/instantiator": "1.0.5"
     },
