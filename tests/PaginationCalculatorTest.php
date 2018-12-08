@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Paginator\PaginationCalculator;
+use SimplyPagination\PaginationCalculator;
 
 class PaginationCalculatorTest extends \PHPUnit_Framework_TestCase
 {

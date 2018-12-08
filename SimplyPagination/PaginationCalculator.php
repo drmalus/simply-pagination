@@ -1,6 +1,6 @@
 <?php
 
-namespace Paginator;
+namespace SimplyPagination;
 
 
 class PaginationCalculator
