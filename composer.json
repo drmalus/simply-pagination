@@ -1,6 +1,7 @@
 {
     "name": "drmalus/simply-pagination",
     "description": "A simple pagination class",
+    "license": "MIT",
     "authors": [
         {
             "name": "Szklenár Ferenc",
